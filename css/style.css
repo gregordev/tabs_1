@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: black;
+  background: #e9ffe0; }
+
+.tabs {
+  width: 100%;
+  overflow: auto;
+  background: #c0edad; }
+
+.button {
+  height: 80px;
+  width: calc(40% / 3);
+  background: #c0edad;
+  font-size: 1.2em;
+  border: none;
+  float: left;
+  display: block; }
+
+.button:hover {
+  background: #a1e086; }
+
+.button.active {
+  background: #6ab04c; }
+
+.tab-contents {
+  display: block;
+  width: 100%; }
+
+#tab-content1, #tab-content2, #tab-content3 {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
